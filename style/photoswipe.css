@@ -60,7 +60,7 @@ div.ps-caption
 	background: -moz-linear-gradient(top, #303130 0%, #000101 100%);
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#303130), color-stop(100%,#000101));
 	border-bottom: 1px solid #42403f;
-	color: #ffffff;
+	color: #fff;
 	font-size: 13px;
 	font-family: "Lucida Grande", Helvetica, Arial,Verdana, sans-serif;
 	text-align: center;
