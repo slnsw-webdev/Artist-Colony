@@ -1,0 +1,199 @@
+@charset "utf-8";
+/* CSS Document */
+
+.replace-2x {
+	font-size: 1px;
+}
+
+@media all and (-webkit-min-device-pixel-ratio:2) {
+	/* 
+	body{
+		background-image:url(../images/bg/bg@2x.png);
+		-webkit-background-size:20px 20px;
+	}
+	*/
+	
+	.arrow-decoration{
+		background-image:url(../images/decorations/arrow@2x.png);
+		-webkit-background-size:107px 196px;
+	}
+	
+	.arrow-decoration2{
+		background-image:url(../images/decorations/arrow2@2x.png);
+		-webkit-background-size:47px 186px;
+	}
+	
+	.navigation-strip{
+		background-image:url(../images/nav/arrow-down@2x.png);
+		-webkit-background-size:20px 20px;
+	}
+	
+	.selected-navigation-strip{
+		background-image:url(../images/nav/arrow-up@2x.png);
+		-webkit-background-size:20px 20px;
+	}
+	
+	/*Lists*/
+	
+	.list-add{
+		background-image:url(../images/lists/add@2x.png);
+		-webkit-background-size:16px 16px;
+	}
+	
+	.list-chart{
+		background-image:url(../images/lists/chart@2x.png);
+		-webkit-background-size:16px 16px;
+	}
+	
+	.list-chartflip{
+		background-image:url(../images/lists/chartflip@2x.png);
+		-webkit-background-size:16px 16px;
+	}
+	
+	.list-close{
+		background-image:url(../images/lists/close@2x.png);
+		-webkit-background-size:16px 16px;
+	}
+	
+	.list-down{
+		background-image:url(../images/lists/down@2x.png);
+		-webkit-background-size:16px 16px;
+	}
+	
+	.list-error{
+		background-image:url(../images/lists/errors@2x.png);
+		-webkit-background-size:16px 16px;
+	}
+	
+	.list-heart{
+		background-image:url(../images/lists/heart@2x.png);
+		-webkit-background-size:16px 16px;
+	}
+	
+	.list-info{
+		background-image:url(../images/lists/info@2x.png);
+		-webkit-background-size:16px 16px;
+	}
+	
+	.list-left{
+		background-image:url(../images/lists/left@2x.png);
+		-webkit-background-size:16px 16px;
+	}
+	
+	.list-page{
+		background-image:url(../images/lists/page@2x.png);
+		-webkit-background-size:16px 16px;
+	}
+	
+	.list-right{
+		background-image:url(../images/lists/right@2x.png);
+		-webkit-background-size:16px 16px;
+	}
+	
+	.list-rss{
+		background-image:url(../images/lists/rss@2x.png);
+		-webkit-background-size:16px 16px;
+	}
+	
+	.list-search{
+		background-image:url(../images/lists/search@2x.png);
+		-webkit-background-size:16px 16px;
+	}
+	
+	.list-staroff{
+		background-image:url(../images/lists/staroff@2x.png);
+		-webkit-background-size:16px 16px;
+	}
+	
+	.list-staron{
+		background-image:url(../images/lists/staron@2x.png);
+		-webkit-background-size:16px 16px;
+	}
+	
+	.list-twitter{
+		background-image:url(../images/lists/twitter@2x.png);
+		-webkit-background-size:16px 16px;
+	}
+	
+	.list-facebook{
+		background-image:url(../images/lists/facebook@2x.png);
+		-webkit-background-size:14px 14px;
+	}
+	
+	.list-up{
+		background-image:url(../images/lists/up@2x.png);
+		-webkit-background-size:16px 16px;
+	}
+	
+	.list-warning{
+		background-image:url(../images/lists/warning@2x.png);
+		-webkit-background-size:16px 16px;
+	}
+	
+	/*Toggles*/
+	
+	.toggle-plus{
+		background-image:url(../images/lists/add@2x.png);
+		-webkit-background-size:16px 16px;
+	}
+	
+	.toggle-plus-selected{
+		background-image:url(../images/lists/close@2x.png);
+		-webkit-background-size:16px 16px;
+	}
+	
+
+	.toggle-arrow{
+		background-image:url(../images/lists/down@2x.png);
+		-webkit-background-size:16px 16px;
+	}
+	
+	.toggle-arrow-selected{
+		background-image:url(../images/lists/up@2x.png);
+		-webkit-background-size:16px 16px;
+	}
+	
+	.checkbox-1{
+		background-image:url(../images/ui/checkbox@2x.png);
+		-webkit-background-size:16px 18px;
+	}
+	
+	.checkbox-1-selected{
+		background-image:url(../images/ui/checkbox-selected@2x.png);
+		-webkit-background-size:16px 18px;
+	}
+	
+	.checkbox-2{
+		background-image:url(../images/ui/checkbox2@2x.png);
+		-webkit-background-size:16px 18px;
+	}
+	
+	.checkbox-2-selected{
+		background-image:url(../images/ui/checkbox2-selected@2x.png);
+		-webkit-background-size:16px 18px;
+	}
+	
+	.radio-1{
+		background-image:url(../images/ui/radio@2x.png);
+		-webkit-background-size:16px 18px;
+	}
+	
+	.radio-1-selected{
+		background-image:url(../images/ui/radio-selected@2x.png);
+		-webkit-background-size:16px 18px;
+	}
+	
+	.radio-2{
+		background-image:url(../images/ui/radio2@2x.png);
+		-webkit-background-size:16px 18px;
+	}
+	
+	.radio-2-selected{
+		background-image:url(../images/ui/radio2-selected@2x.png);
+		-webkit-background-size:16px 18px;
+	}
+
+
+
+
+};
