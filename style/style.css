@@ -965,12 +965,12 @@ label#message_label{
 }
 
 .cbp-vm-view-grid ul li {
-	width: 25%;
+	width: 40%;
 	text-align: center;
 	padding: 5px;
 	margin: 5px 0 0;
 	display: inline-block;
-	min-height: 150px;
+	min-height: 80px;
 	vertical-align: top;
 }
 
@@ -991,12 +991,12 @@ label#message_label{
 
 @media screen and (max-width: 57em) {
 	.cbp-vm-view-grid ul li {
-		width: 25%;
+		width: 40%;
 	}
 }
 
 @media screen and (max-width: 40.125em) {
 	.cbp-vm-view-grid ul li {
-		width: 25%;
+		width: 40%;
 	}
 }

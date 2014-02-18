@@ -20,19 +20,17 @@
 						
 						// Return a DOM element with custom styling
 						captionEl = document.createElement('div');
-						captionEl.style.cssText = 'background: red; font-weight: bold; padding: 5px;';
+						captionEl.style.cssText = 'background: white; font-weight: bold; padding: 5px;';
 						captionEl.appendChild(document.createTextNode(captionText));
 						return captionEl;
-						
-						// Alternatively you can just pass back a string. However, any HTML 
-						// markup will be escaped	
+	
 					}
 				},
 				instance = PhotoSwipe.attach( window.document.querySelectorAll('#gallery a'), options );
 		}, false);
 	}(window, window.Code.PhotoSwipe));
 	
-	// slider lib
+	// init
 	$(document).ready(function(){
 	
 		(function(a,b,c){if(c in b&&b[c]){var d,e=a.location,f=/^(a|html)$/i;a.addEventListener("click",function(a){d=a.target;while(!f.test(d.nodeName))d=d.parentNode;"href"in d&&(d.href.indexOf("http")||~d.href.indexOf(e.host))&&(a.preventDefault(),e.href=d.href)},!1)}})(document,window.navigator,"standalone")
