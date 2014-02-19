@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.phonegap.example"
+        versionCode = "10" 
+        version     = "1.0.0" >
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>Artist Colony</name>
+
+    <description>Simple gallery viewing app for the TAL Ichi (Derby) Collection</description>
+
+    <author href="https://www.sl.nsw.gov.au" email="rod.higgins@sl.nsw.gov.au">
+        Rod Higgins
+    </author>
+	
+	<gap:platform name="ios" />
+	<gap:platform name="android" />
+	
+	<preference name="fullscreen" value="true" />
+	
+	<gap:splash src="images/splash/splash-screen.png" />
+
+</widget>
