@@ -15,11 +15,10 @@
         Rod Higgins
     </author>
 	
+	<preference name="fullscreen" value="true" />
+	
 	<gap:platform name="ios" />
 	<gap:platform name="android" />
 	
-	<preference name="fullscreen" value="true" />
 	
-	<gap:splash src="images/splash/splash-screen.png" />
-
 </widget>
