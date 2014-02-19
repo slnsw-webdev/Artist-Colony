@@ -235,7 +235,8 @@ li{
 }
 
 .go-logo img{
-	padding-top:5px;
+	font-size: 1px;
+	/* padding-top:5px; */
 }
 
 .navigation-strip{
