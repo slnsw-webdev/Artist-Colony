@@ -16,9 +16,15 @@
     </author>
 	
 	<preference name="fullscreen" value="true" />
+	<preference name="ios-statusbarstyle" value="black-opaque" />
 	
 	<gap:platform name="ios" />
 	<gap:platform name="android" />
+	
+	<gap:splash src="splash/splash/splash-screen.png" gap:platform="ios" width="320" height="480" />
+	<gap:splash src="splash/splash/splash-screen@2x.png" gap:platform="ios" width="640" height="960" />
+	<gap:splash src="splash/splash/splash-screen.png" gap:platform="android" width="320" height="480" />
+	<gap:splash src="splash/splash/splash-screen@2x.png" gap:platform="android" width="640" height="960" />
 	
 	
 </widget>
