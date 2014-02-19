@@ -255,6 +255,7 @@ li{
 	/* height:16px; */
 	/* background-color:#8b8b8b; */
 	background-color: #fff;
+	/* background-image:url(../images/icons/nav@2x.png); */
 	background-image:url(../images/icons/nav@2x.png);
 	background-position:center center;
 	background-repeat:no-repeat;
@@ -264,6 +265,7 @@ li{
 }
 
 .selected-navigation-strip{
+	/* background-image:url(../images/icons/nav@2x.png); */
 	background-image:url(../images/icons/nav@2x.png);
 	font-size: 1px;
 }
