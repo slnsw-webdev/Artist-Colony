@@ -27,5 +27,8 @@
 	<gap:splash src="splash/splash/splash-screen.png" gap:platform="android" width="320" height="480" />
 	<gap:splash src="splash/splash/splash-screen@2x.png" gap:platform="android" width="640" height="960" />
 	
+	<!-- plugins -->
+	<gap:plugin name="de.appplant.cordova.plugin.hidden-statusbar-overlay" version="1.0.0" />
+	<gap:plugin name="com.adobe.plugins.gaplugin" />
 	
 </widget>
