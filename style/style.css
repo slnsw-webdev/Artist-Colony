@@ -272,6 +272,9 @@ li{
 .navigation{
 	width: 140px;
 	float: right;
+	position:fixed;
+	top:50px;
+	right:5px;
 }
 
 .navigation li {
@@ -289,7 +292,7 @@ li{
   display:block;
   font-weight:bold;
   color:#FFFFFF;
-  background-color:#98bf21;
+  background-color:#000;
   width:140px;
   text-align:center;
   padding:4px;
