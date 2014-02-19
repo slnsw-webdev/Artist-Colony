@@ -173,6 +173,13 @@ li{
 	padding-right:10px;
 }
 
+@media screen and (max-width: 340px){
+  .navigation p a{
+	  padding-left:5px;
+	  padding-right:5px;
+  }	
+}
+
 .selected-main-navigation{
 	background-color:#e34e47!important;
 	border-radius:15px;
