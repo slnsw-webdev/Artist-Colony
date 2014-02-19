@@ -1,35 +1,75 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-    <widget xmlns   = "http://www.w3.org/ns/widgets"
-        xmlns:gap   = "http://phonegap.com/ns/1.0"
-        id          = "com.phonegap.example"
-        versionCode = "10" 
-        version     = "1.0.0" >
+<?xml version="1.0" encoding="UTF-8"?>
+	<widget xmlns = "http://www.w3.org/ns/widgets"
+		xmlns:gap = "http://phonegap.com/ns/1.0"
+		id        = "com.phonegap.example"
+		versionCode="10"
+		version   = "1.0.0">
+		
+		<name>Artist Colony</name>
+		<description>Simple gallery viewing app for the TAL Ichi (Derby) Collection		</description>
+		<author href="https://www.sl.nsw.gov.au" email="rod.higgins@sl.nsw.gov.au">
+			Rod Higgins
+		</author>
+		
+		<preference name="phonegap-version" value="3.3.0" />
+		<preference name="fullscreen" value="true" />
+		<preference name="webviewbounce" value="true" />
+		<preference name="prerendered-icon" value="false" />
+		<preference name="stay-in-webview" value="true" />
+		<preference name="ios-statusbarstyle" value="black-opaque" />
+		<preference name="exit-on-suspend" value="true" />
+		<preference name="show-splash-screen-spinner" value="true" />
+		<preference name="auto-hide-splash-screen" value="false" />
+		<preference name="EnableViewportScale" value="false" />
+		<preference name="MediaPlaybackRequiresUserAction" value="false" />
+		<preference name="AllowInlineMediaPlayback" value="false" />
+		<preference name="BackupWebStorage" value="cloud" />
+		<preference name="TopActivityIndicator" value="white" />
+		<preference name="KeyboardDisplayRequiresUserAction" value="true" />
+		<preference name="HideKeyboardFormAccessoryBar" value="false" />
+		<preference name="SuppressesIncrementalRendering" value="false" />
+		<preference name="android-minSdkVersion" value="7" />
+		<preference name="android-installLocation" value="internalOnly" />
+		<preference name="SplashScreenDelay" value="5000" />
+		<preference name="splash-screen-duration" value="5000"/>
+		<preference name="ErrorUrl" value=""/>
+		<preference name="BackgroundColor" value=""/>
+		<preference name="KeepRunning" value="true"/>
+		<preference name="DisallowOverscroll" value="false"/>
+		<preference name="LoadingDialog" value=","/> 
+		<preference name="LoadUrlTimeoutValue" value="20000" />
+		<preference name="disable-cursor" value="false" />
+		
+		<gap:platform name="ios" />
+		<gap:platform name="android" />
+		
+		<icon src="images/splash/index.png" gap:platform="ios" width="57" height="57" />
+		<icon src="images/splash/index.png" gap:platform="ios" width="72" height="72" />
+		<icon src="images/splash/index@2x.png" gap:platform="ios" width="114" height="114" />
+		<icon src="images/splash/index@2x.png" gap:platform="ios" width="144" height="144" />
+		<icon src="images/splash/index.png" gap:platform="ios" width="76" height="76" />
+		<icon src="images/splash/index@2x.png" gap:platform="ios" width="120" height="120" />
+		<icon src="images/splash/index@2x.png" gap:platform="ios" width="152" height="152" />
+		<icon src="images/splash/index.png" gap:platform="android" gap:density="ldpi" />
+		<icon src="images/splash/index.png" gap:platform="android" gap:density="mdpi" />
+		<icon src="images/splash/index.png" gap:platform="android" gap:density="hdpi" />
+		<icon src="images/splash/index@2x.png" gap:platform="android" gap:density="xhdpi" />
+		<icon src="images/splash/index@2x.png" gap:platform="android" gap:density="xxhdpi" />
+		<gap:splash src="splash/ios/Default.png" gap:platform="ios" width="320" height="480" />
+		<gap:splash src="splash/ios/Default.png" gap:platform="ios" width="480" height="320" />
+		<gap:splash src="splash/ios/Default_at_2x.png" gap:platform="ios" width="640" height="960" />
+		<gap:splash src="splash/ios/Default_at_2x.png" gap:platform="ios" width="960" height="640" />
+		<gap:splash src="splash/ios/Default.png" gap:platform="ios" width="640" height="1136" />
+		<gap:splash src="splash/ios/Default.png" gap:platform="ios" width="1136" height="640" />
+		<gap:splash src="splash/ios/Default_at_2x.png" gap:platform="ios" width="768" height="1024 " />
+		<gap:splash src="splash/ios/Default.png" gap:platform="ios" width="1024" height="768" />
+		<gap:splash src="splash/ios/Default.png" gap:platform="android" gap:density="ldpi" />
+		<gap:splash src="splash/ios/Default.png" gap:platform="android" gap:density="mdpi" />
+		<gap:splash src="splash/ios/Default.png" gap:platform="android" gap:density="hdpi" />
+		<gap:splash src="splash/ios/Default_at_2x.png" gap:platform="android" gap:density="xhdpi" />
 
-    <!-- versionCode is optional and Android only -->
 
-    <name>Artist Colony</name>
-
-    <description>Simple gallery viewing app for the TAL Ichi (Derby) Collection</description>
-
-    <author href="https://www.sl.nsw.gov.au" email="rod.higgins@sl.nsw.gov.au">
-        Rod Higgins
-    </author>
-	
-	<preference name="phonegap-version" value="3.3.0" />
-	<preference name="fullscreen" value="true" />
-	<preference name="ios-statusbarstyle" value="black-opaque" />
-	
-	<gap:platform name="ios" />
-	<gap:platform name="android" />
-	
-	<gap:splash src="splash/ios/Default.png" gap:platform="ios" width="320" height="480" />
-	<gap:splash src="splash/ios/Default_at_2x.png" gap:platform="ios" width="640" height="960" />
-	<gap:splash src="splash/ios/Default.png" gap:platform="android" width="320" height="480" />
-	<gap:splash src="splash/ios/Default_at_2x.png" gap:platform="android" width="640" height="960" />
-	
-	
-	<!-- plugins -->
-	<gap:plugin name="de.appplant.cordova.plugin.hidden-statusbar-overlay" version="1.0.0" />
-	<gap:plugin name="com.adobe.plugins.gaplugin" />
-	
-</widget>
+		<gap:plugin name="com.adobe.plugins.gaplugin" />
+		<gap:plugin name="de.appplant.cordova.plugin.hidden-statusbar-overlay"  version="1.0.0" />
+		
+	</widget>
