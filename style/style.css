@@ -246,15 +246,17 @@ li{
 	width:16px;
 	height:16px;
 	background-color:#8b8b8b;
-	background-image:url(../images/nav/arrow-down.png);
+	background-image:url(../images/nav/nav.png);
 	background-position:center center;
 	background-repeat:no-repeat;
 	border-radius:45px;
 	padding:10px;
+	font-size: 1px;
 }
 
 .selected-navigation-strip{
-	background-image:url(../images/nav/arrow-up.png);
+	background-image:url(../images/nav/nav.png);
+	font-size: 1px;
 }
 
 
