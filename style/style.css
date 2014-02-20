@@ -1039,9 +1039,9 @@ label#message_label{
 	width: 40%;
 	text-align: center;
 	padding: 5px;
-	margin: 5px 0 0;
+	/* margin: 5px 0 0; */
 	display: inline-block;
-	min-height: 80px;
+	/* min-height: 80px; */
 	vertical-align: top;
 }
 
