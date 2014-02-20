@@ -74,7 +74,7 @@
 						
 						// Return a DOM element with custom styling
 						captionEl = document.createElement('div');
-						captionEl.style.cssText = 'background: black; font-weight: bold; padding: 5px;';
+						captionEl.style.cssText = 'font-weight: bold; padding: 5px;';
 						captionEl.appendChild(document.createTextNode(captionText));
 						return captionEl;
 	
