@@ -24,12 +24,12 @@
 	}
 	
 	.navigation-strip{
-		background-image:url(../images/nav/arrow-down@2x.png);
+		background-image:url(../images/nav/nav@2x.png);
 		-webkit-background-size:20px 20px;
 	}
 	
 	.selected-navigation-strip{
-		background-image:url(../images/nav/arrow-up@2x.png);
+		background-image:url(../images/nav/nav@2x.png);
 		-webkit-background-size:20px 20px;
 	}
 	
