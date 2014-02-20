@@ -242,16 +242,39 @@ li{
 	padding-left:10px;
 }
 
-.go-logo img{
-	font-size: 1px;
-	/* padding-top:5px; */
+.go-logo img {
+	content:url(../images/logo/artist_colony_vertical.png);
+	background-repeat: no-repeat;
+	width: auto; /*or your image's width*/
+	height: auto; /*or your image's height*/
+	margin: 0;
+	padding: 0;
+}
+
+/* adjust widths for each sizes */
+@media screen and (min-width: 500px){
+	.go-logo img {
+		content:url(../images/logo/banner_artist_colony_420.png);	
+	}
+}
+
+@media screen and (min-width: 720px){
+	.go-logo img {
+		content:url(../images/logo/banner_artist_colony_640.png);	
+	}
+}
+
+@media screen and (min-width: 940px){
+	.go-logo img {
+		content:url(../images/logo/banner_artist_colony_860.png);	
+	}
 }
 
 .navigation-strip{
 	display:block;
 	float:right;
 	margin-right:10px;
-	width:16px;
+	width:28px;
 	/* height:16px; */
 	/* background-color:#8b8b8b; */
 	background-color: #fff;
@@ -260,7 +283,8 @@ li{
 	background-position:center center;
 	background-repeat:no-repeat;
 	/* border-radius:45px; */
-	padding:10px;
+	padding-top:30px;
+	padding-right:10px;
 	font-size: 1px;
 }
 
@@ -317,8 +341,8 @@ li{
 }
 
 .header{
-	padding-top:20px;
-	margin-bottom:20px;
+	padding-top:10px;
+	margin-bottom:10px;
 }
 
 .decoration{
