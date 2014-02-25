@@ -51,6 +51,35 @@
 		gaPlugin.exit(nativePluginResultHandler, nativePluginErrorHandler);
 	}
 	
+	// util func
+	function parseURL(url) {
+		var a =  document.createElement('a');
+		a.href = url;
+		return {
+			source: url,
+			protocol: a.protocol.replace(':',''),
+			host: a.hostname,
+			port: a.port,
+			query: a.search,
+			params: (function(){
+				var ret = {},
+					seg = a.search.replace(/^\?/,'').split('&'),
+					len = seg.length, i = 0, s;
+				for (;i<len;i++) {
+					if (!seg[i]) { continue; }
+					s = seg[i].split('=');
+					ret[s[0]] = s[1];
+				}
+				return ret;
+			})(),
+			file: (a.pathname.match(/\/([^\/?#]+)$/i) || [,''])[1],
+			hash: a.hash.replace('#',''),
+			path: a.pathname.replace(/^([^\/])/,'/$1'),
+			relative: (a.href.match(/tps?:\/\/[^\/]+(.+)/) || [,''])[1],
+			segments: a.pathname.replace(/^\//,'').split('/')
+		};
+	}
+		
 	
 	// photoswipe lib call
 	(function(window, PhotoSwipe){
@@ -60,15 +89,17 @@
 					getImageCaption: function(el){
 						var captionText, captionEl;
 						
-						// Get the caption from the alt tag
+						// Get the caption from the src
 						if (el.nodeName === "IMG"){
-							captionText = el.getAttribute('alt'); 
+							fileParse = parseURL(el.getAttribute('href'));
+							captionText = "Digital ID - " + fileParse.file.substring(0,fileParse.file.length-5); 
 						}
 						var i, j, childEl;
 						for (i=0, j=el.childNodes.length; i<j; i++){
 							childEl = el.childNodes[i];
 							if (el.childNodes[i].nodeName === 'IMG'){
-								captionText = childEl.getAttribute('alt'); 
+								fileParse = parseURL(el.getAttribute('href'));
+								captionText = "Digital ID - " + fileParse.file.substring(0,fileParse.file.length-5);
 							}
 						}
 						
@@ -216,3 +247,5 @@
 			
 		
 		});
+		
+	

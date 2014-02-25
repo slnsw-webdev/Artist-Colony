@@ -273,18 +273,12 @@ li{
 .navigation-strip{
 	display:block;
 	float:right;
-	margin-right:10px;
-	width:28px;
-	/* height:16px; */
-	/* background-color:#8b8b8b; */
-	background-color: #fff;
-	/* background-image:url(../images/icons/nav@2x.png); */
-	background-image:url(../images/icons/nav@2x.png);
-	background-position:center center;
-	background-repeat:no-repeat;
-	/* border-radius:45px; */
-	padding-top:30px;
+	padding-top:50px;
 	padding-right:10px;
+	width:28px;
+	background-color: #fff;
+	background-image:url(../images/icons/nav@2x.png);
+	background-repeat:no-repeat;
 	font-size: 1px;
 }
 
@@ -320,6 +314,7 @@ li{
   color:#FFFFFF;
   background-color:#000;
   width:140px;
+  height: 100%;
   text-align:center;
   padding:4px;
   text-decoration:none;
