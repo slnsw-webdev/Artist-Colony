@@ -270,6 +270,30 @@ li{
 	}
 }
 
+.volumes {
+	font-size: 1px;
+	width: 120px;
+}
+
+/* adjust widths for each sizes */
+@media screen and (min-width: 500px){
+	.volumes {
+		width: 180px;
+	}	
+}
+
+@media screen and (min-width: 720px){
+	.volumes {
+		width: 270px;
+	}	
+}
+
+@media screen and (min-width: 940px){
+	.volumes {
+		width: 360px;
+	}	
+}
+
 .navigation-strip{
 	display:block;
 	float:right;
