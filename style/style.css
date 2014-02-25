@@ -321,6 +321,30 @@ li{
 	right:5px;
 }
 
+/* To Top */
+
+#toTop {
+	position: absolute;
+	right: 0;
+	background: url(../images/nav/totop.png) no-repeat;
+	display: block;
+	width: 26px;
+	height: 103px;
+	text-indent: -9999px;
+	bottom: 10%;
+	position: fixed;
+	z-index: 999;
+	cursor: pointer;
+	border: none;
+}
+
+#toTop:hover {
+	text-decoration: none;
+	border: none;
+	background: url(../images/nav/totop-hover.png) no-repeat;
+}
+
+
 .navigation li {
 	list-style-type:none;
 	margin:0;
@@ -377,6 +401,11 @@ li{
 	}
 }
 
+.sublogo {
+	display : block;
+    margin : auto;	
+}
+
 
 .logo-small{
 	float:left;
@@ -403,10 +432,9 @@ li{
 
 .big-heading{
 	font-weight:400;
-	color:#777777;
+	color:#000;
 	text-shadow: 0px 2px 0px #FFFFFF;
-	font-family: 'Satisfy', cursive;
-	font-size:30px;
+	font-size:35px;
 	text-align:center;
 	padding-top:40px;
 	padding-bottom:10px;
@@ -416,6 +444,7 @@ li{
 	color:#000;
 	text-shadow:0px 1px 0px #FFFFFF;
 	width:100%;
+	font-size:20px;
 	text-align:center;
 	margin:auto;
 	margin-bottom:10px;
