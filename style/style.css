@@ -368,7 +368,11 @@ li{
   text-decoration:none;
   text-transform:uppercase;
 }
-.navigation li ul a:hover,a:active{
+.navigation li ul a:hover{
+	background-color: #999;
+}
+
+.navigation li ul a.currentpage{
 	background-color:#7A991A;
 }
 
