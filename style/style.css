@@ -434,7 +434,7 @@ li{
 	font-weight:400;
 	color:#000;
 	text-shadow: 0px 2px 0px #FFFFFF;
-	font-size:22px;
+	font-size:20px;
 	text-align:center;
 	padding-top:40px;
 	padding-bottom:10px;
@@ -443,7 +443,7 @@ li{
 .big-text{
 	color:#000;
 	text-shadow:0px 1px 0px #FFFFFF;
-	width:100%;
+	width:70%;
 	font-size:11px;
 	text-align:center;
 	margin:auto;
@@ -451,9 +451,26 @@ li{
 }
 
 /* adjust widths for each sizes */
+@media screen and (max-width: 320px){
+	.big-text{
+		width:95%;
+	}
+}
+@media screen and (max-width: 400px){
+	.big-text{
+		width:90%;
+	}
+}
+
+@media screen and (max-width: 495px){
+	.big-text{
+		width:80%;
+	}
+}
+
 @media screen and (min-width: 500px){
 	.big-heading{
-		font-size:26px;
+		font-size:24px;
 	}
 	.big-text{
 		font-size:13px;
@@ -471,7 +488,7 @@ li{
 
 @media screen and (min-width: 800px){
 	.big-heading{
-		font-size:30px;
+		font-size:32px;
 	}
 	.big-text{
 		font-size:15px;
@@ -480,7 +497,7 @@ li{
 
 @media screen and (min-width: 950px){
 	.big-heading{
-		font-size:34px;
+		font-size:36px;
 	}
 	.big-text{
 		font-size:16px;
