@@ -86,6 +86,7 @@
 		document.addEventListener('DOMContentLoaded', function(){
 			var
 				options = {
+					captionAndToolbarAutoHideDelay: 0,
 					getImageCaption: function(el){
 						var captionText, captionEl;
 						

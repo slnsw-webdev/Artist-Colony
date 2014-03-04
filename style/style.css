@@ -1210,3 +1210,11 @@ label#message_label{
 		width: 40%;
 	}
 }
+
+.ps-caption{
+opacity:0.8 !important;
+}
+
+.ps-toolbar {
+opacity:0.8 !important;
+}
